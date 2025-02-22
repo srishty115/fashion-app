@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: poppins;
+        }
+
+        .navbar {
+            height: 50px;
+            width: 100%;
+            background-color: transparent;
+            padding: 5px;
+            display: flex;
+        }
+
+        button:hover {
+            cursor: pointer;
+            box-shadow: 0 0 10px red;
+            transition: 0.5s;
+        }
+
+        .logo img {
+            height: 50px;
+            width: 50px;
+            margin-left: 20px;
+        }
+
+        .logo-name h1 {
+            margin-left: 5px;
+            text-shadow: 0 0 2px black;
+        }
+
+        .list ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 200px;
+        }
+
+        .list ul li {
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 10px;
+            cursor: pointer;
+            color: white;
+        }
+
+        .btn button {
+            padding: 5px 20px;
+            border-radius: 25px;
+            background-color: red;
+            color: white;
+            border: none;
+            margin-top: 5px;
+            margin-left: 150px;
+        }
+
+        .banner {
+            height: 100vh;
+            width: 100%;
+            background-image: url(https://images.pexels.com/photos/1884584/pexels-photo-1884584.jpeg);
+            background-size: cover;
+        }
+
+        .text h1 {
+
+            color: white;
+            margin-top: 280px;
+            margin-left: 300px;
+            text-shadow: 0 0 3px black;
+
+        }
+
+        .text h1 span {
+            color: red;
+            font-size: 50px;
+            text-shadow: 0 0 3px red;
+        }
+
+        .text p {
+            color: red;
+            margin-left: 300px;
+            margin-top: 20px;
+            text-shadow: 0 0 1px red;
+        }
+
+        .text button {
+            padding: 10px 30px;
+            margin-left: 300px;
+            margin-top: 30px;
+            border: none;
+            border-radius: 30px;
+            box-shadow: 0 0 5px black;
+            color: red;
+            cursor: pointer;
+        }
+
+        .about-us {
+            height: 1030px;
+            width: 100%;
+            margin-bottom: 40px;
+        }
+
+        .about-us h1 {
+            color: black;
+            text-align: center;
+            margin: 30px;
+            font-size: 50px;
+            text-shadow: 0 0 2px black;
+        }
+
+        .image {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 20px;
+        }
+
+        .img img {
+            height: 400px;
+        }
+
+        .about {
+            display: flex;
+            justify-content: space-evenly;
+            height: 500px;
+            width: 100%;
+            padding-top: 50px;
+        }
+
+        .about-text {
+            height: 400px;
+        }
+
+        .about-text h1 {
+            color: black;
+            text-shadow: 0 0 2px black;
+            margin: 5px;
+
+        }
+
+        .about-text p {
+            line-height: 25px;
+            width: 720px;
+        }
+
+        .image-about img {
+            height: 400px;
+        }
+
+        .footer {
+            height: 280px;
+            width: 100%;
+            background-color: rgba(251, 173, 109, 0.085);
+        }
+
+        .footer-flexing {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 100px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .newsletter input {
+            border: none;
+            border-radius: 5px;
+            padding: 10px 25px;
+            margin-bottom: 10px;
+        }
+
+        .copyright p {
+            text-align: center;
+            padding: 10px 0px;
+
+        }
+
+        .img img:hover {
+            box-shadow: 0 0 5px black;
+            border-radius: 25px;
+            transition: 0.5s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <div class="logo"><img src="../HTML/media/Screenshot 2025-01-05 201831.png" alt=""></div>
+            <div class="logo-name">
+                <h1>King's <span style="color: red; text-shadow: 0 0 2px red;">Clothing</span></h1>
+            </div>
+
+            <div class="list">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Links</li>
+                </ul>
+            </div>
+            <div class="btn"><Button> Contact </Button></div>
+
+        </div>
+        <div class="text">
+            <h1>Where <span> Fashion</span> <br>
+                Dreams Come <span> True</span> </h1>
+            <p>Website Designed By - Srishty kumari</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+    <div class="about-us">
+        <h1>Some Clothes Collection</h1>
+        <div class="image">
+            <div class="img"><img src="https://images.pexels.com/photos/52518/jeans-pants-blue-shop-52518.jpeg" alt=""></div>
+            <div class="img"><img src="https://images.pexels.com/photos/1176618/pexels-photo-1176618.jpeg" alt=""></div>
+            <div class="img"><img src="https://images.pexels.com/photos/3812433/pexels-photo-3812433.jpeg" alt=""></div>
+            <div class="img"><img src="https://images.pexels.com/photos/3353621/pexels-photo-3353621.jpeg" alt=""></div>
+        </div>
+        <div class="about">
+            <div class="about-text">
+                <h1>Dress to Express, Not to Impress</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis recusandae suscipit aliquid expedita
+                    nisi cumque deserunt. Accusantium natus cumque assumenda aut earum repellat. Beatae repellendus
+                    rerum ipsum iure fugiat, ex odit vel impedit nulla ad incidunt cum voluptatibus deleniti
+                    reprehenderit esse quasi? Eveniet sequi odit magni consectetur doloremque obcaecati animi architecto
+                    porro corrupti ducimus corporis commodi consequuntur nulla quo modi voluptatibus, molestias,
+                    deleniti sunt fugit. Ratione nobis harum maiores totam, at illum ab natus perspiciatis sed aut,
+                    libero magnam quod, possimus dolores aperiam expedita magni sit veritatis excepturi repellendus
+                    facilis. Eos dolor similique tempore, pariatur deserunt reiciendis illo unde assumenda.</p>
+                <p
+                    style="color: red; font-size: 20px; text-shadow: 0 0 1px red;padding-left: 550px; padding-top: 30px;">
+                    </p>
+            </div>
+            <div class="image-about"><img src="https://images.pexels.com/photos/615003/pexels-photo-615003.jpeg" alt=""></div>
+        </div>
+    </div>
+    <div class="footer">
+
+        <div class="footer-flexing">
+            <div class="customer-support">
+                <h1 style="color: black; text-shadow: 0 0 1px black; padding: 10px 0px;">Customer Support</h1>
+                <ul>
+                    <li>About Us</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms & Conditions</li>
+                    <li>Product Returns</li>
+                    <li>Wholesale Policy</li>
+                </ul>
+            </div>
+            <div class="quick-links">
+                <h1 style="color: black; text-shadow: 0 0 1px black; padding: 10px 0px;">Quick Links</h1>
+                <ul>
+                    <li>Product</li>
+                    <li>Terms & Conditions</li>
+                    <li>Contact</li>
+                    <li>Accesseries</li>
+                    <li>Terms Of Use</li>
+                </ul>
+            </div>
+            <div class="newsletter">
+                <h1 style="color: black; text-shadow: 0 0 1px black; padding: 10px 0px;">Newsletter</h1>
+                <input type="text" placeholder="Enter Your Email Here">
+                <h2 style="text-shadow: 0 0 1px black; color: black;">Stay Connected</h2>
+                <span><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i><i
+                        class="fa-brands fa-square-instagram"></i></span>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169; 2024 Coding Artist | <span style="font-size: 20px; color: red;"> Fashion</span> |
+                All Rights Reserved</p>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
